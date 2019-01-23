@@ -17,5 +17,4 @@ RUN apk add nodejs
 RUN node --version
 
 # checking npm version
-RUN apk add npm
 RUN npm --version
