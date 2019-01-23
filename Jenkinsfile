@@ -4,9 +4,7 @@ node {
 
 pipeline {
   agent {
-    docker {
-        image 'node:11.6.0'
-    }
+    dockerfile true
   }
   environment {
         HOME = '.'
