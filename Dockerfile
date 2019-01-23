@@ -4,7 +4,9 @@ MAINTAINER mani.jsui@gmail.com
 RUN apk update
 RUN apk add nginx
 
-RUN apk add python3-pip
+RUN apk --update add python
+
+RUN apk add py-pip
 RUN pip3 --version
 
 RUN pip install awscli
