@@ -13,5 +13,6 @@ RUN aws --version
 RUN apt-get install nodejs
 RUN node --version
 
+# checking npm version
 RUN apt-get install npm
 RUN npm --version
