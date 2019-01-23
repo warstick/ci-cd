@@ -7,7 +7,7 @@ RUN apk add nginx
 RUN apk --update add python
 
 RUN apk add py-pip
-RUN pip3 --version
+RUN pip --version
 
 RUN pip install awscli
 RUN aws --version
