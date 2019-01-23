@@ -38,7 +38,7 @@ pipeline {
       }
       stage('Elastic beanstalk Deploy') {
           steps {
-              sh 'aws elasticbeanstalk describe-applications --application-name pipeline-demo'
+              sh 'aws elasticbeanstalk describe-applications --application-name pipeline-demo --region us-east-2'
               // sh 'rm -rf build/build.tar.gz'
           }
       }
