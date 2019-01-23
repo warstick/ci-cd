@@ -2,7 +2,7 @@ FROM alpine:3.7
 MAINTAINER mani.jsui@gmail.com 
 
 RUN apk update
-RUN apk add –y nginx
+RUN apk add nginx
 
 RUN apk add python3-pip
 RUN pip3 --version
