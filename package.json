@@ -1,5 +1,5 @@
 {
-  "name": "ec2-ci-cd-demo",
+  "name": "myapp",
   "version": "0.0.0",
   "private": true,
   "scripts": {
